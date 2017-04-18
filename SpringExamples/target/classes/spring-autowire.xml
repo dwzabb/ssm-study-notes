@@ -6,7 +6,5 @@
     default-autowire="constructor">
 
     <bean id="autoWireDAO" class="com.wdeng.spring.autowiring.AutoWireDAO"></bean>
-    <bean id="autoWireService" class="com.wdeng.spring.autowiring.AutoWireService">
-        <constructor-arg name="autoWireDAO" ref="autoWireDAO"></constructor-arg>
-    </bean>
+    <bean id="autoWireService" class="com.wdeng.spring.autowiring.AutoWireService"></bean>
  </beans>
